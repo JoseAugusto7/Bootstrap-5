@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+
+        Esta forma referencia o bootstrap externamente por CDN
+
+        Vantagens: É intetretessante usar quando for publicar um site em um servidor web real
+        Motivo: 1- Servidores CDN tem alta disponibilidade de banda e serviço, com issos dificilmente ficam fora do ar e são rápidos para enviar arquivos estáticos.
+                2- Poupa tráfego no servidor do seu site toda vez que um arquivo é baixado.
+                3- Outros sites podem usar o mesmo arquivos em via CDN, ou seja, o seu cliente pode já ter baixado os arquivos e ficam armazenados em chache, isso faz com que a navegação fique mais rápida.
+    -->
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> 
+
+    <!-- Esta forma referencia o bootstrap localmente depois de baixado na pasta
+    
+        Vantagens: É interessantes de usar quando um site estiver em fase de desenvolvimento.
+        Motivo: Poderá usar o bootstrap sem o uso da internet.
+    -->
+
     <title>Associando o Bootstrap 5 ao documento HTML</title>
 </head>
 <body>
@@ -11,5 +29,13 @@
     <hr>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio beatae quos libero, molestias molestiae vero cupiditate ad quae, explicabo suscipit nostrum magnam quo aspernatur numquam aliquam laboriosam omnis consequatur, id fuga porro iusto velit. Doloremque ea, sunt ipsum velit reiciendis accusantium adipisci vitae, quae quibusdam omnis molestias dignissimos eaque voluptatibus blanditiis praesentium veritatis consequatur itaque iure sint, recusandae modi eveniet ut distinctio. Adipisci accusantium quas illum, omnis ea error, minima qui officia culpa quos beatae dignissimos quo ipsum rem, quia sint consectetur earum velit! Repellat fugiat doloribus ex inventore dolore nostrum impedit ab minus distinctio maiores eligendi, enim sunt modi.</p>
     <h3><a href="../index.html">Página Inicial</a></h3>
+
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+
+        Esta forma referencia o bootstrap externamente puxando o link do site
+    -->
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
